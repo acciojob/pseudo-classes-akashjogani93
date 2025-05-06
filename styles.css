@@ -6,16 +6,16 @@ body {
   background-color: var(--bg-color);
 }
 
-p:first-child {
+p:first-of-type {
   background-color: black;
   color: white;
 }
 
-p:nth-child(2) {
-  /* Standard text color (no styling needed) */
+p:nth-of-type(2) {
+  /* Standard text color (no extra styling required) */
 }
 
-p:last-child {
+p:last-of-type {
   color: red;
 }
 
